@@ -3,14 +3,13 @@
 This project is the backend for the Service Station application, providing a comprehensive API for managing service station operations. It is built using Node.js and Express, with MongoDB as the database.
 
 # Table of Contents
-Features
-Technologies
-Installation
-Usage
-API Endpoints
-Contributing
-License
-Contact
+   Features
+   Technologies
+   Installation
+   API Endpoints
+   Contributing
+   License
+   Contact
 
 # Features:
    - User Registration and Authentication (JWT)
