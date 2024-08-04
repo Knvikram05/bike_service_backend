@@ -26,12 +26,11 @@ This project is the backend for the Service Station application, providing a com
   - Express
   - MongoDB
   - JWT for Authentication
-# Installation
-  Prerequisites
-  Ensure you have the following installed:
-     Node.js
-     npm (Node Package Manager)
-     MongoDB
+# Installation:
+  Prerequisites:
+     - Node.js
+     - npm (Node Package Manager)
+     -  MongoDB
   Steps
    Clone the repository: git clone https://github.com/yourusername/service-station-backend.git
    cd service-station-backend/service-app/server
