@@ -2,7 +2,7 @@
 # Bike_Service Station Backend
 This project is the backend for the Service Station application, providing a comprehensive API for managing service station operations. It is built using Node.js and Express, with MongoDB as the database.
 
-Table of Contents
+# Table of Contents
 Features
 Technologies
 Installation
@@ -11,64 +11,42 @@ API Endpoints
 Contributing
 License
 Contact
-Features
-User Registration and Authentication (JWT)
-Admin Authentication
-CRUD Operations for Services (Admin only)
-CRUD Operations for Bike Stations (Admin only)
-CRUD Operations for Bookings
-Users can create and delete their own bookings
-Admins can update and view all bookings
-Users can view their own bookings
-Role-based Access Control
-Technologies
-Node.js
-Express
-MongoDB
-JWT for Authentication
-Installation
-Prerequisites
-Ensure you have the following installed:
 
-Node.js
-npm (Node Package Manager)
-MongoDB
-Steps
-Clone the repository:
+#Features:
+    - User Registration and Authentication (JWT)
+    - Admin Authentication
+    - CRUD Operations for Services (Admin only)
+    - CRUD Operations for Bike Stations (Admin only)
+    - CRUD Operations for Bookings
+             - Users can create and delete their own bookings
+             - Admins can update and view all bookings
+             - Users can view their own bookings
+    - Role-based Access Control
+# Technologies
+  Node.js
+  Express
+  MongoDB
+  JWT for Authentication
+# Installation
+  Prerequisites
+  Ensure you have the following installed:
+     Node.js
+     npm (Node Package Manager)
+     MongoDB
+  Steps
+   Clone the repository: git clone https://github.com/yourusername/service-station-backend.git
+   cd service-station-backend/service-app/server
 
-bash
-Copy code
-git clone https://github.com/yourusername/service-station-backend.git
-cd service-station-backend/service-app/server
 Install dependencies:
-
-bash
-Copy code
-npm install
-Set up environment variables:
-
-Create a .env file in the root directory and add the following:
-
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+  npm install
+  Create a .env file in the root directory and add the following:
+       PORT=5000
+       JWT_SECRET=your_jwt_secret
 Start the server:
+      node server.js
+      The server will be running at http://localhost:5000.
 
-bash
-Copy code
-npm start
-Usage
-Running Locally
-After following the installation steps, you can run the server locally by executing:
-
-bash
-Copy code
-npm start
-The server will be running at http://localhost:5000.
-
-API Documentation
+# API Documentation
 The API provides endpoints for managing users, services, bookings, and bike stations. Below are the key endpoints.
 
 API Endpoints
