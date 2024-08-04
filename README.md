@@ -21,11 +21,11 @@ This project is the backend for the Service Station application, providing a com
          - Admins can update and view all bookings
          - Users can view their own bookings
    - Role-based Access Control
-# Technologies
-  Node.js
-  Express
-  MongoDB
-  JWT for Authentication
+# Technologies:
+  - Node.js
+  - Express
+  - MongoDB
+  - JWT for Authentication
 # Installation
   Prerequisites
   Ensure you have the following installed:
