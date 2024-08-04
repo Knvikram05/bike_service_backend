@@ -8,7 +8,7 @@ require('dotenv').config()
 const router = express.Router()
 // route to register the new user
 router.post(
-  '/',
+  '/login',
   [
     check('username', 'Username is required').not().isEmpty(),
     check('email', 'Please include a valid email').isEmail(),
