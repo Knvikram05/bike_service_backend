@@ -1,6 +1,5 @@
-const mongoose = require('mongoose');
-
-// bike station data schema 
+// bikestation database schema
+const mongoose = require('mongoose')
 
 const bikeStationSchema = new mongoose.Schema({
   name: {
@@ -19,7 +18,6 @@ const bikeStationSchema = new mongoose.Schema({
       ref: 'Service',
     },
   ],
-});
+})
 
-const bikeStation = mongoose.model('BikeStation', bikeStationSchema);
-module.exports = bikeStation;
+module.exports = mongoose.model('BikeStation', bikeStationSchema)
