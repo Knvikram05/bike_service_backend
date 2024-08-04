@@ -13,15 +13,15 @@ License
 Contact
 
 # Features:
-    - User Registration and Authentication (JWT)
-    - Admin Authentication
-    - CRUD Operations for Services (Admin only)
-    - CRUD Operations for Bike Stations (Admin only)
-    - CRUD Operations for Bookings
-             - Users can create and delete their own bookings
-             - Admins can update and view all bookings
-             - Users can view their own bookings
-    - Role-based Access Control
+   - User Registration and Authentication (JWT)
+   - Admin Authentication
+   - CRUD Operations for Services (Admin only)
+   - CRUD Operations for Bike Stations (Admin only)
+   - CRUD Operations for Bookings
+         - Users can create and delete their own bookings
+         - Admins can update and view all bookings
+         - Users can view their own bookings
+   - Role-based Access Control
 # Technologies
   Node.js
   Express
