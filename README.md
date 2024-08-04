@@ -12,7 +12,7 @@ Contributing
 License
 Contact
 
-#Features:
+# Features:
     - User Registration and Authentication (JWT)
     - Admin Authentication
     - CRUD Operations for Services (Admin only)
