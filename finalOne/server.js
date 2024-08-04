@@ -11,12 +11,12 @@ connectDB()
 app.use(express.json())
 
 // Define Routes
-app.use('/api/users', require('./routes/users'))
-app.use('/api/auth', require('./routes/auth'))
-app.use('/api/admin', require('./routes/admin'))
-app.use('/api/services', require('./routes/services'))
-app.use('/api/bike-stations', require('./routes/bikeStations'))
-app.use('/api/bookings', require('./routes/bookings'))
+app.use('/api/users', require('./routes/users')) // user register
+app.use('/api/auth', require('./routes/auth')) // user login
+app.use('/api/admin', require('./routes/admin')) // admin login
+app.use('/api/services', require('./routes/services')) // manage services(CRUD);
+app.use('/api/bike-stations', require('./routes/bikeStations')) // manage bike-stations(CRUD)
+app.use('/api/bookings', require('./routes/bookings')) // manage bookings(CRUD)
 
 // server connection
 const PORT = process.env.PORT || 5000
