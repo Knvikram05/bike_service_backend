@@ -44,33 +44,30 @@ This project is the backend for the Service Station application, providing a com
 The API provides endpoints for managing users, services, bookings, and bike stations. Below are the key endpoints.
 
 # API Endpoints
-Auth
- - POST /api/auth/register - Register a new user
+# Auth
  - POST /api/auth/login - Login a user
- - POST /api/auth/admin/login - Login an admin
-Users
- - GET /api/users - Get all users (Admin only)
+ - POST /api/admin/login - Login an admin
+# Users
+ - POST /api/users/register - register a user
  - GET /api/users/:id - Get a user by ID (Admin only)
  - PUT /api/users/:id - Update a user (Admin only)
  - DELETE /api/users/:id - Delete a user (Admin only)
-Services
+# Services
  - GET /api/services - Get all services
- - GET /api/services/:id - Get a service by ID
  - POST /api/services - Create a new service (Admin only)
  - PUT /api/services/:id - Update a service (Admin only)
  - DELETE /api/services/:id - Delete a service (Admin only)
-Bookings
+# Bookings
  - POST /api/bookings - Create a new booking (Any authenticated user)
  - GET /api/bookings - Get all bookings (Admin only)
- - GET /api/bookings/user - Get bookings for the logged-in user
+ - GET /api/bookings/my-bookings - Get bookings for the logged-in user
  - PUT /api/bookings/:id - Update a booking (Admin only)
  - DELETE /api/bookings/:id - Delete a booking (Any authenticated user for their own bookings)
-Bike Stations
- - GET /api/bikestations - Get all bike stations
- - GET /api/bikestations/:id - Get a bike station by ID
- - POST /api/bikestations - Create a new bike station (Admin only)
- - PUT /api/bikestations/:id - Update a bike station (Admin only)
- - DELETE /api/bikestations/:id - Delete a bike station (Admin only)
+# Bike Stations
+ - GET /api/bike-stations - Get all bike stations 
+ - POST /api/bike-stations - Create a new bike station (Admin only)
+ - PUT /api/bike-stations/:id - Update a bike station (Admin only)
+ - DELETE /api/bike-stations/:id - Delete a bike station (Admin only)
    
 # Contribution:
    Contributions are welcome! Please create a pull request or open an issue for any changes or improvements.
