@@ -27,7 +27,6 @@ This project is the backend for the Service Station application, providing a com
   - MongoDB
   - JWT for Authentication
 # Installation:
-  Prerequisites:
      - Node.js
      - npm (Node Package Manager)
      -  MongoDB
