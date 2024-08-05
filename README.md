@@ -27,15 +27,23 @@ This project is the backend for the Service Station application, providing a com
   - MongoDB
   - JWT for Authentication
 # Installation:
-     - Node.js
+     - Node.js(express)
      - npm (Node Package Manager)
-     -  MongoDB
+     - MongoDB(mongoose)
+     - jsonwebtoken
+     - bcrypt.js
 
 # Install dependencies:
-        npm install,
+       npm install,
        .env file 
        PORT=5000
-       JWT_SECRET=your_jwt_secret
+       JWT_SECRET=code001
+       // this is the login details for admin 
+       {
+         "email": "admin@gmail.com",
+         "password": "1234567890",
+         "mobileNumber": "9362853628"
+       }
  # Start the server:
       node server.js
       The server will be running at http://localhost:5000.
